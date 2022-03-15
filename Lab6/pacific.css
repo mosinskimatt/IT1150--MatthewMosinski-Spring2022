@@ -1,0 +1,71 @@
+body {  background-color: #90C7E3;
+        background: linear-gradient(#ffffff, #90c7e3); 
+        font-family: Arial, Helvetica, sans-serif;}
+#wrapper{width: 80%;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        min-width: 960px;
+        max-width: 2048px;
+        box-shadow: 3px 3px #333333;}
+
+header { background-color: #002171;
+        color: #FFFFFF;
+        background-image: url(images/sunset.jpg);
+        background-position: right;
+        background-repeat: no-repeat;  
+        height: 60px;
+        text-align: center;
+        padding-top: 15px;}
+        
+h1 {    margin-bottom: 0;
+        margin-top: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif; }
+
+nav { background-color: #FFFFFF;
+        font-weight: bold;
+        text-align: center;
+        padding: 1em; }
+
+nav a{text-decoration: none;}
+
+h2 { color: #1976D2;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 1px #CCCCCC; }
+h3 {color: #000033;
+        font-family: Georgia, 'Times New Roman', Times, serif;}
+        
+main ul{list-style-image: url(images/marker.gif);}
+#main{  padding-top: 1px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        display: block;}
+
+
+footer{ font-size: 75%;
+        font-style: italic;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 2em;}
+
+dt {    color: #002171; }
+
+.resort { color: #1976D2;
+        font-weight: bold; }
+
+#contact{ color: black;
+        font-size: 90%;}
+
+#homehero {background-image: url(images/coast.jpg);
+        height:300px;
+        background-repeat:no-repeat;
+        background-size:100% 100%;}
+
+#yurthero{background-image: url(images/yurt.jpg);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;}
+#trailhero{background-image: url(images/trail.jpg);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;}

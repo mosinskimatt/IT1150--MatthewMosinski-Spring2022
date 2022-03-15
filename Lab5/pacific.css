@@ -4,7 +4,7 @@ body { background-color: #FFFFFF;
 
 header { background-color: #002171;
         color: #FFFFFF;
-        background-image: url("C:\Users\mosin\OneDrive\Documents\School Spring 2022\IT1150-MatthewMosinski-Intro to Web programming-Spring2022\IT1150--MatthewMosinski-Spring2022\Lab5\images\sunset.jpg");
+        background-image: url(images/sunset.jpg);
         background-position: right;
         background-repeat: no-repeat;  
         line-height: 400%;
@@ -23,7 +23,7 @@ h2 { color: #1976D2;
 h3 {color: #000033;
         font-family: Georgia, 'Times New Roman', Times, serif;}
         
-main ul{list-style-image: url("C:\Users\mosin\OneDrive\Documents\School Spring 2022\IT1150-MatthewMosinski-Intro to Web programming-Spring2022\IT1150--MatthewMosinski-Spring2022\Lab5\images\marker.gif");}
+main ul{list-style-image: url(images/marker.gif);}
 
 footer{font-size: 75%;
 font-style: italic;
