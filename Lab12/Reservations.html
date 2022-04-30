@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>Pacific Trails Resort::Reservations</title>
+    <meta name = "description"
+    content = "Book your stay online at Pacific Trails Resort."
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pacific.css">
+</head>
+<body><div id = "wrapper">
+    <header>
+        <a href="index.html">Pacific Trails Resort</a>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="yurts.html">Yurts </a>
+            <a href="activities.html">Activites</a>
+            <a href="reservations.html">Reservations</a>
+        </ul>   
+    </nav>
+
+    <main>
+        <h2>Reservations at Pacific Trails
+            <h3>Contact Us Toady!
+                Required fields are marked with an asterisk *.
+            </h3>
+            <form method="post" action = "https://webdevbasics.net/scripts/
+                pacific.php">
+                <label for="myFName">*First Name:</label>
+                <input type="text" name="myFName" required="required">
+
+                <label for="myLName">*Last Name:</label>
+				<input type="text" name="myLName" required="required">
+
+				<label for="myEmail">*E-mail:</label>
+				<input type="email" name="myEmail" required="required">
+
+				<label for="myPhone">Phone:</label>
+				<input type="telephone" name="myPhone">
+
+				<label for="myArrivalDate">*Arrival Date:</label>
+				<input type="date" name="myArrivalDate">
+
+				<label spinner="myNights">Nights:</label>
+				<input type="number" min="1" max="14">
+
+				<label for="myComments">*Comments:</label>
+				<textarea name="myComments" rows="2" cols="30" required="required"></textarea>
+
+				<input type="submit" id="mySubmit" value="Submit">
+            </form>
+        </h2>
+        
+    
+    <div>
+        <strong><span class="resort">Pacific Trails Resort</span></strong><br>
+        12010 Pacific Trails Road<br>
+        Zephyr, CA 95555<br><br>
+        888-555-5555
+    </div>
+    </main>
+
+    <footer>
+        <br>Copyright &copy; 2020 Pacific Trails Resort</span><br>
+            <a href="mailto:Matthew@Mosinski.com">Matthew@Mosinski.com</a>
+    </footer>
+</body>
+</div>
+</html>
